@@ -1,0 +1,52 @@
+.footer
+{
+
+position: sticky;
+top: 100px;
+  background-color:black; 
+  
+  padding: 40px 50px;
+  color: aliceblue;
+  
+ transition: transform .1s; 
+
+  
+}
+a
+{
+ 
+text-decoration:double;
+    color:white;
+    padding:15px 10px;
+   
+   
+}
+a:hover
+{
+    color:red;
+    transform: scale(1.5);
+  
+    
+}
+.footer img
+{
+  width: 150px;
+ 
+}
+.text-center
+{
+position:sticky;
+ }
+.hr1 {
+  border: 0;
+  height: 3px;
+  background: #095484;
+  background-image: linear-gradient(to right, orange, orange);
+
+}
+.hr {
+  border-top: 5px solid #095484;
+  background: #095484;
+  background-image: linear-gradient(to right, orange, orange);
+
+}

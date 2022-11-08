@@ -1,0 +1,81 @@
+
+.profile .profile-card img {
+  max-width: 150px;
+}
+
+.profile .profile-card h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #2c384e;
+  margin: 10px 0 0 0;
+}
+
+.profile .profile-card h3 {
+  font-size: 30px;
+}
+
+.profile .profile-card .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  color: rgba(1, 41, 112, 0.5);
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.profile .profile-card .social-links a:hover {
+  color: #012970;
+}
+
+.profile .profile-overview .row {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.profile .profile-overview .card-title {
+  color: #012970;
+}
+
+.profile .profile-overview .label {
+  font-weight: 600;
+  color: rgba(1, 41, 112, 0.6);
+}
+
+.profile .profile-edit label {
+  font-weight: 600;
+  color: rgba(1, 41, 112, 0.6);
+}
+
+.profile .profile-edit img {
+  max-width: 120px;
+}
+
+  #main {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  padding: 20px 30px;
+  transition: all 0.3s;
+  position: relative;
+
+
+}
+
+@media (max-width: 1000px) {
+  #main {
+    padding: 20px;
+    position: relative;
+  }
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #f6f9ff;
+    color: #444444;
+    position: relative;
+   
+  }
+  
+  a {
+    color: #4154f1;
+    text-decoration: none;
+  }
